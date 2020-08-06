@@ -1,0 +1,167 @@
+@keyframes pp{
+    from{transform: translateY(-400%)}
+    to{ transform: translateY(0)}
+}
+
+.informacion {
+    position:absolute;
+    margin-top:9%;
+    color: white;
+    text-align:left;
+}
+
+
+
+.informacion h{
+   font-weight: bolder;
+   font-size: x-large;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.informacion p{
+    font-size: medium;
+    margin-bottom:8%;
+ }
+.Contacto-formato {
+    padding:10%;
+    text-align:right;
+    background: rgba(100, 29, 113, 0.76);
+    background-position: center;
+    background-size: cover;
+    font-family:sans-serif;
+    
+    
+}
+
+
+
+
+.informacion i{
+    width:32px;
+    height:32px;
+}
+
+.titulo{
+    text-align:center;
+    margin:0%;
+    color: #fff;
+    font-size: 32px;
+    
+    
+}
+
+::placeholder {
+    color:rgba(255, 255, 255, 0.438);
+
+}
+
+:-ms-input-placeholder {
+    color:rgba(255, 255, 255, 0.438);
+}
+  
+  
+
+.Form{
+    margin-top:7%;
+    
+    
+
+}
+
+.Form-control{
+    animation-name:pp;
+    animation-duration: 2s;
+    width: 40%;
+    background:transparent;
+    border:none;
+    outline: none;
+    border-bottom:3px solid #fff;
+    font-size:18px;
+    color:#fff;
+    margin-bottom:3%;
+    text-align: left;
+    margin-right: 15%;
+}
+
+Input{
+   height:10%;
+   background:transparent;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: white;
+  box-shadow: 0 0 0px 1000px rgba(160, 8, 160, 0.678) inset;
+  background-color: transparent !important;
+
+}
+.informacion a{
+    text-decoration: none;
+    color:white;
+}
+
+.informacion a:hover{
+    color:blue;
+}
+
+.window2{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5%;
+    margin-bottom:5%;
+    box-shadow: 9px 0px 30px -15px #000;
+      -moz-box-shadow: 9px 0px 30px -15px #000;
+      -webkit-box-shadow: 9px 0px 30px -15px #000;
+      -khtml-box-shadow: 9px 0px 30px -15px #000;
+}
+
+.Contacto-formato Button {
+width:40%;
+ background: #ff00b3;
+ border-color:transparent;
+ color: #fff;
+ font-size:20px;
+ letter-spacing: 2px;
+font-weight: bold;
+height:10%;
+margin-top: 1%;
+margin-right: 15%;
+}
+
+.Contacto-formato Button:hover{
+     background-color: #369ef4;
+     cursor:pointer;
+}
+
+@media  (max-width: 1100px) { 
+    .informacion {
+       position:relative !important;
+       text-align:Center;
+       margin-bottom:10%;
+       
+   }
+
+   .window2 {
+       width:100%;
+   }
+
+   .informacion p{
+       display:none;
+       padding:5%;
+   }
+   .Form-control{
+       width:90%;
+   }
+
+   .Contacto-formato Button {
+       margin-right:35%;
+   }
+}

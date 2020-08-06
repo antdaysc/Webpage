@@ -1,0 +1,337 @@
+
+.Header{
+    width:100%;
+    background: #C33764; 
+    background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8));
+    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)); 
+  
+}
+
+
+
+
+.container{
+    width:100%;
+}
+
+img[alt*="Nombre"] {
+    position:absolute;
+    display:block;
+    top:25%;
+    margin-left:5%;
+    width:30%;
+
+    
+}
+
+img[alt*="Comienzo"] {
+    width:90%;
+    z-index: 100;
+    margin-left:5%;
+    -webkit-user-drag: none;
+        -khtml-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        user-select:none;
+        box-shadow: 9px 0px 30px -15px #000;
+      -moz-box-shadow: 9px 0px 30px -15px #000;
+      -webkit-box-shadow: 9px 0px 30px -15px #000;
+      -khtml-box-shadow: 9px 0px 30px -15px #000;
+
+    }
+
+    img[alt*="Comienzo2"] {
+        width:60%;
+        z-index: 100;
+        -webkit-user-drag: none;
+            -khtml-user-drag: none;
+            -moz-user-drag: none;
+            -o-user-drag: none;
+            user-select:none;
+            margin-left:auto;
+            margin-right:auto;
+            position:relative;
+            display:block
+    
+        }
+
+
+img[alt*="fondo"] {
+    width:100%;
+    z-index: -100;
+
+    }
+
+img[alt*="Imagen"] {
+    width:60%;
+    margin:15%;
+    box-shadow: 9px 13px 27px -14px #000;
+      -moz-box-shadow: 9px 13px 27px -14px #000;
+      -webkit-box-shadow: 0px 13px 27px -14px #000;
+      -khtml-box-shadow: 9px 13px 27px -14px #000;
+
+    
+    }
+.Detalle{
+   display:flex;
+   position:relative;
+   width:100%;
+   margin-top:0%;
+   background-color: #f4f9fd;
+}
+
+
+
+
+.Galeria{
+    margin-bottom:0%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+     z-index:100;
+    position:relative;
+    background-color:#f4f9fd;
+    
+}
+.Descripcion{
+    
+    
+    width:540px;
+    display:block;
+    position:absolute;
+    right:0;
+    margin: 10%;
+    margin-top:4%;
+    
+}
+
+.Descripcion p{
+    line-height: 1.5;
+    color: #112847;
+    font-family: "Muli",Sans-serif;
+    font-size: 18px;
+
+}
+
+.Descripcion h{
+    color: #13287e;
+    font-family: "Muli",Sans-serif;
+    margin: 0 0 100px;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 36px;
+
+}
+
+.Comienzo{
+    margin:0%;
+    padding-top:3%;
+    background-color:#f4f9fd;
+}
+
+.bar{
+   margin:2%;
+}
+
+.Wraps {
+    width:18%;
+    margin-left:18%;
+}
+
+
+
+@media  (max-width: 1250px) { 
+    .Inicio .Imagen{
+      display:none
+    }
+    img[alt*="Nombre"] {
+        top:23%;
+    }
+
+    .Descripciones .Descripcion{
+        background-size:cover;
+        display:block;
+        z-index:100;
+        position:relative;
+        margin-left:auto;
+        margin-right:auto;
+        
+        
+    }
+
+    
+
+    .Descripciones{
+        background-image:url('./Imagenes/rehab2.jpg');
+        margin-left:auto;
+            margin-right:auto;
+            margin-top:auto;
+    }
+
+   
+
+}
+
+
+
+@media  (max-width: 570px) {
+    .Descripcion {
+        margin-bottom:0%;
+        margin-top:0%;
+        position:relative;
+        justify-content:center;
+        width:100%;
+        
+    }
+    
+}
+
+@media  (max-width: 900px) {
+    .Comienzo{
+        display:none;
+    }
+    img[alt*="Nombre"] {
+        top:20%;
+    }
+    
+    }
+
+
+       
+
+@media  (min-width: 901px) {
+.Comienzo2{
+    display:none;
+}
+}
+
+@media  (max-width: 620px) {
+img[alt*="Comienzo2"]{
+    width:90%;
+}
+
+img[alt*="Nombre"] {
+    top:16%;
+}
+}
+
+@media  (max-width: 545px) {
+    .texto{
+        margin:3%;
+    }
+    
+}
+
+@media  (max-width: 510px) {
+.Descripcion p{
+    font-size: 12px;
+}
+
+.Descripcion h{
+    font-size: 18px;
+    
+}
+}
+
+.gallery img[alt*="Trauma"] {
+    width:15%;
+    position:absolute;
+    background: rgb(52, 148, 226);
+    border-radius: 100%;
+    margin-top:18%;
+    margin-left:15%;
+}
+
+.gallery img[alt*="Bailar"] {
+    width:15%;
+    position:absolute;
+    background: rgb(52, 148, 226);
+    border-radius: 100%;
+    margin-top:18%;
+    margin-left:15%;
+}
+
+.Ramat {
+    width: 65%;
+    overflow: hidden;
+   text-align: center;
+   display:flex;
+   position:relative;
+   justify-content: center;
+   margin:auto;
+   margin-top:10%;
+   margin-bottom:10%;
+   }
+
+   
+
+@media only screen and (max-width: 800px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+    img[alt*="Nombre"] {
+        top:18%;
+    }
+
+    div.desc{
+        font-size: 3vw !important;
+    }
+
+    .Ramat{
+        width:100%;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+
+    img[alt*="Nombre"] {
+        top:16%;
+    }
+    
+
+    .responsive .Bailar{
+        width:13% !important;
+        margin-left: 14% !important;
+    }
+
+    .responsive .Trauma{
+        width:13% !important;
+        margin-left: 14% !important;
+    }
+  }
+
+  .responsive {
+    padding: 10px 20px;
+    float: left;
+    width: 100%;
+    
+    
+  }
+
+  div.desc {
+    margin:20%;
+    text-align: center;
+    font-family: "Muli",Sans-serif;
+    font-size: 1.9vw;
+    font-weight: 500;
+    color: #13287d;
+  }
+
+
+
+  div.gallery {
+    box-shadow: 2px 2px  10px 1px rgba(0,0,0,.5);
+  }
+
+  div.gallery:hover {
+    border: 2px solid #777;
+  }
+
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }

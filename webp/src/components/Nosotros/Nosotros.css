@@ -1,0 +1,397 @@
+.icon{
+ width:100%;
+ justify-content: center;
+ display: flex;
+ position: relative;
+ margin:auto;
+ 
+}
+
+.Header h1{
+        background: rgba(255, 255, 255, 0);
+        color:white;
+        font-family: "Arial";
+        left: 0;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        margin-top:25%;
+        font-size:30px;
+        font-size:7vw;
+}
+
+.box{
+margin-bottom: 1%;
+color: rgb(243, 240, 240);
+padding-bottom: 3%;
+margin: auto;
+width:80%
+}
+
+.presentacion{
+        width: 60%;
+        display:flex;
+        margin:auto;
+        padding: 0;
+        font-size: 1.4vw;
+        color:rgb(4, 10, 59);
+        position: relative;
+       justify-items: center;
+       margin-top:2%;
+       
+
+        
+        
+  }
+
+
+img[alt*="sello"] {
+        position: relative;
+        padding:0; 
+        margin-top:2%;
+        width: 30%;
+        display: flex;
+        justify-content:center;
+        
+
+        }
+
+img[alt*="Dancer"] {
+        position: absolute;
+        padding:0; 
+        margin-top:2%;
+        width: 30%;
+       z-index:-100;
+        float:center;
+        margin-left: auto; 
+  margin-right: auto; 
+  left: 0; 
+  right: 0; 
+
+        }
+
+
+.Ramas h{
+        position: relative;
+        justify-content:center;
+        color:white;
+        font-size: 200%;
+}
+
+.Ramas spam {
+        position: relative;
+        justify-content:center;
+        color:white;
+        font-size: 200%;
+        margin: 8%;
+}
+
+
+
+img[alt*="Trauma"] {
+        width:27%;
+        margin-top: 1%;
+        display:block;
+        float:right;
+        margin-right: 17%;
+}
+
+img[alt*="Neuro"] {
+        width:100%;
+        display:block;
+        
+}
+img[alt*="Sport"] {
+        width:100%;
+        display:block;
+}
+
+img[alt*="Bailar"] {
+        width:100%;
+        margin-top: 4%;
+        margin-bottom:4%;
+        display:block;
+        float:left;
+        margin-left:10%;
+
+}
+
+img[alt*="blue-circle"] {
+        position: absolute;
+        width: 20%;
+        display: flex;
+        justify-content:center;
+        margin-left:10%;
+        z-index:-100;
+        margin-top: 0%;
+        zoom: 1;
+        }
+
+ img[alt*="Rostros"] {
+        position: absolute;
+        width: 50.5%;
+        display: flex;
+        margin-left: 50%;
+        }       
+
+img[alt*="pink-circle"] {
+        position: absolute;
+        width: 20%;
+        display: flex;
+        justify-content:right;
+        margin-left:70%;
+        z-index:-100;
+        margin-top: -4.5%;
+        zoom: .5;
+        }
+
+.window p{
+     
+      text-align:left;
+      float: right;
+      width: 27%;
+      font-size: 22px;
+      margin-right:10%;
+      box-shadow: -5px 0px 0px  #c39ce6;
+      padding-left:1%;
+      color:rgb(4, 10, 59);
+      transform: translate();
+      
+      
+}
+
+
+.window p2{
+     
+        text-align:right;
+        float: left;
+        width: 27%;
+        font-size: 22px;
+        margin-left:10%;
+        box-shadow: 5px 0px 0px  #c39ce6;
+        padding-right:1%;
+        color:rgb(4, 10, 59);
+  }
+
+
+
+.window h2 {
+        
+        text-align:center;
+        float: left;
+        margin-top:6%;
+        font-size:6vw;
+        margin-left:20%;
+        color:rgb(4, 10, 59);
+        
+}
+
+.window h3 {
+        
+        text-align:center;
+        float: right;
+        margin-top:2%;
+        font-size:6vw;
+        margin-right:20%;
+        color:rgb(4, 10, 59);
+       
+        
+        
+}
+
+
+
+
+.container{
+position: relative;
+width:100%;
+zoom:.9;
+margin:auto;
+padding-bottom: 4%;
+display: flex;
+text-align:center;
+object-fit: cover;
+
+
+}
+
+
+ 
+.Ramas {
+ width: 100%;
+ background-color: rgba(68, 0, 255, 0.904);
+ box-shadow: 0px 5px 7px rgba(68, 0, 255, 0.904);
+ margin-top: 4%;
+ overflow: hidden;
+ position:relative;
+text-align: center;
+}
+
+.Ramas h{
+        z-index:0;
+}
+
+.Wrap {
+        width:18%;
+        margin-left:18%;
+}
+
+
+.Image1{
+        position:absolute;
+        top:50%;
+        left:45%;
+        transform:translate(-50%,-50%);
+        -ms-transform:translate(-50%,-50%);
+        overflow:hidden;
+       
+}
+
+.Image2{
+        position:absolute;
+        top:50%;
+        left:45%;
+        transform:translate(-50%,-50%);
+        -ms-transform:translate(-50%,-50%);
+        overflow:hidden;
+       
+}
+
+.Overlap{
+        position:absolute;
+        bottom:0;
+        left: 0;
+        right:0;
+        width:40%;
+        height:0%;
+        transition:.5s ease;
+        overflow:hidden;
+        margin-left: 10%;
+        background:rgba(68, 0, 255, 0.979) ;
+}
+
+.Overlap2{
+        position:absolute;
+        bottom:0;
+        left: 0;
+        right:0;
+        width:40%;
+        height:0%;
+        transition:.5s ease;
+        overflow:hidden;
+        margin-left: 50%;
+        background:rgba(68, 0, 255, 0.952) ;
+}
+
+.Wrap:hover .Overlap{
+        height:100%;
+}
+
+.Wrap2:hover .Overlap2{
+        height:100%;
+}
+
+.Section2{
+        width:100%;
+        margin-top:8%;
+        margin-bottom:5%;
+        
+        
+}
+
+
+
+.Anounce{
+        
+        width:70%;
+        height:15vw;
+        margin:auto;
+        display: flex;
+        position:relative;
+        background: rgba(161, 198, 224, 0.39);
+        margin-bottom: 4%;
+}
+
+.Conoce{
+        width:70%;
+        height:60%;
+        font-size:2vw;
+        font-weight: bold;
+        margin-left:15%;
+        margin-top: 10%;
+        color:rgb(4, 10, 59);
+}
+
+.Click{
+        position:relative;
+        font-size:1.5vw;
+        height:20%;
+        float:left;
+        margin-left:15%;
+        margin-top: -4%;
+        text-decoration:none;
+        color:rgb(4, 10, 59);
+}
+
+@media (max-width: 1077px){
+        .window p,.window p2 {
+                font-size: 22px;
+        }
+        .Ramas spam {
+                font-size: 180%;
+        }
+
+        
+        
+        }
+
+        @media (max-width: 900px){
+        .Ramas spam{
+                font-size: 160%;
+        }
+        .box {
+                width:100%
+
+        }
+        
+        }
+
+
+@media (max-width: 752px){
+        .window p,.window p2{
+                font-size: 14px;
+        }
+        .Ramas spam{
+                font-size: 140%;
+        }
+        .presentacion {
+                width:70%;
+                
+        }
+        }
+        
+
+@media (max-width: 600px){
+        .window p,.window p2{
+                font-size: 8px;
+        }
+        .Ramas spam{
+                font-size: 120%;
+        }
+        .presentacion {
+                width:80%;
+                font-size: 2.9vw;
+                
+        }
+        }
+
+@media (max-width: 450px){
+        .window p,.window p2{
+                font-size: 7px;
+        }
+
+        .Ramas spam{
+                font-size: 80%;
+        }
+        }
+

@@ -1,0 +1,36 @@
+img[alt*="imagenes"] {
+
+    z-index: -100;
+    }
+
+    .MuiGridList-root::-webkit-scrollbar { width: 0 !important; }
+    .MuiGridList-root  { overflow: -moz-scrollbars-none; }
+    .MuiGridList-root  { -ms-overflow-style: none; }
+
+    .MuiGridList-root{
+        background-color:#f4f9fd;
+    }
+
+    @keyframes slider {
+        0% { transform: translateX(0px); }
+        
+        100% { transform: translateX(-352%);  }
+    }
+
+    .pres .MuiGridListTile-tile{
+        animation-name:slider;
+        animation: slider 20s linear infinite;
+        background-color:#f4f9fd;
+    }
+   .Tile{
+       margin-top:8%;
+       margin-bottom:8%;
+      
+   }
+
+   @media  (max-width: 600px) { 
+    .Tile{
+        margin-top:0%;
+        margin-bottom:0%;
+    }
+}

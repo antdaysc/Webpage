@@ -1,0 +1,135 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.containe {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: table;
+   
+}
+
+.footer .containe{
+    margin-top:5%;
+}
+
+
+
+@media (min-width: 1200px){
+.containe {
+    width: 1170px !important;
+}
+}
+
+@media (max-width: 992px){
+    .containe {
+        width: 80%;
+    }
+    }
+
+
+@media (min-width: 768px){
+.containe {
+    width: 750px;
+}
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+    display: block;
+}
+.footer {
+    background: rgba(29, 38, 113, 0.8);
+    padding: 60px 0px;
+    color: #FFF;
+    height:auto;
+    display: block;
+    
+}
+
+.footer h6 {
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom:20px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 1.1;
+}
+
+.footer ul li{
+    margin:10px 0px;
+    text-align: center;
+}
+
+.footer ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer ul li a {
+    color: #FFF;
+    text-decoration:none;
+}
+
+.footer ul li a:hover {
+    color: #08ad9e;
+}
+
+
+
+ .text-center {
+    text-align: center;
+}
+
+.ikonlar .fa {
+    font-size: 30px;
+    padding: 10px;
+    color: #adadad;
+}
+
+
+
+@media (min-width: 1200px){
+.col-lg-4 {
+    width: 33.33333333333333%;
+}
+}
+
+@media (min-width: 1200px){
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+}
+}
+
+@media (min-width: 992px){
+.col-md-4 {
+    width: 33.33333333333333%;
+}}
+
+@media (min-width: 992px){
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+}
+}
+
+@media (min-width: 768px){
+.col-sm-4 {
+    width: 33.33333333333333%;
+}
+}
+
+@media (min-width: 768px){
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+}
+}
+

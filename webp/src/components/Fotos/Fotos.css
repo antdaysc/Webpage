@@ -1,0 +1,96 @@
+img[alt*="fondo"] {
+    width:100%;
+    position:relative;
+   
+    }
+
+.base .makeStyles-root-1 {
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #fff;
+}
+
+
+@media (max-width: 900px)
+{
+.base {
+    padding-top: 15%;
+}
+}
+
+.base .makeStyles-root-1{
+    background-color: white !important;
+    
+}
+
+.base .makeStyles-gridList-2 {
+    width: 70% ;
+    height: 70%;
+}
+
+@media (max-width: 900px){
+.base .makeStyles-gridList-2 {
+    width: 100% !important;
+}
+}
+
+@media (max-width: 900px){
+.base .MuiGridListTileBar-subtitle{
+display:none !important;
+}
+}
+
+.base .MuiGridListTile-root{
+    width:50%;
+    height:400px;
+    padding:2px;
+}
+
+@media (max-width: 900px){
+.base .MuiGridListTile-root {
+    height: 40vw !important;
+}
+}
+
+.base .MuiGridListTile-root {
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+.base .makeStyles-gridList-2{
+    background-color: white;
+}
+
+h1{
+        background: rgba(255, 255, 255, 0);
+        color:blue;
+        font-family: "Arial";
+        left: 0;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        margin-top:25%;
+        font-size:30px;
+        font-size:7vw;
+        z-index: 0;
+}
+
+@media  (max-width: 900px) { 
+.base img[alt*="fondo"] {
+    display:none;
+}
+
+}
+
+
+.makeStyles-gridList-2 {
+    width: 100%;
+    
+    }
+
+    .gallery ul.gallery-images--ul li.gallery-media-photo 
+    .picture img.photo {
+ max-width: 100%;
+ max-height:100%;
+    }

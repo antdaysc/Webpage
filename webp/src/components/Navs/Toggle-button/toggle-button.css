@@ -1,0 +1,49 @@
+.toggle-box{
+    height:100%
+}
+
+button:hover .toggle-button{
+background-color:none;
+}
+.toggle-button {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    height:30px;
+    height: 6vw;
+    background:transparent;
+    border:none;
+    padding:0;
+    box-sizing: border-box;
+    width:100%;
+    cursor:pointer;
+}
+
+
+
+@media  (min-width: 900px)  { 
+    .toggle-button{
+      display: none
+    }
+}
+
+.toggle-button:focus{
+    outline:none;
+}
+
+.toggle-button_line {
+    width:30px;
+    width: 6vw;
+    height: 8%;
+    background: white;
+    size: 100%;
+
+}
+
+.toggle-button_line1{
+    width:30px;
+    width: 6vw;
+    height: 8%;
+    background: #407294;
+    size: 100%;
+}
